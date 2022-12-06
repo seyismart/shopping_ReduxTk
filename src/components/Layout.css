@@ -1,0 +1,34 @@
+body {
+  background-color: peru
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.products-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  flex-wrap: wrap;
+}
+.total-price {
+  text-align: center;
+  /* margin-right: 50px; */
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.orderBtn {
+  width: 120px;
+  background: orangered;
+  border: none;
+  cursor: pointer;
+  height: 40px;
+}
+.orderBtn:hover {
+  background: rgb(89, 0, 190);
+}

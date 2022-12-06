@@ -1,0 +1,35 @@
+
+button {
+ 
+   /* margin-bottom: 40px; */
+  font-size: medium;
+  background-color: rgba(21, 26, 42, 0.787); 
+}
+.card {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 5px 5px 10px #ccc;
+}
+.card img {
+  width: 70%;
+  height: 40%;
+  margin-top: 50px;
+  
+}
+.price {
+font-size: 20px;
+margin-bottom: 40px;
+}
+.card:hover {
+  box-shadow: 10px 10px 20px rgb(147, 128, 151);
+}
+.btn {
+  margin-bottom: -15px;
+  background-color: rgb(117, 61, 61);
+  cursor: pointer;
+}
